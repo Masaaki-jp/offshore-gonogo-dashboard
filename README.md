@@ -11,7 +11,10 @@
 ### 🌊 About The Project
 This project is a lightweight, automated weather monitoring dashboard built with Google Apps Script (GAS) and Google Sheets. It is designed to support Go/No-Go decision-making for offshore wind farm operations (e.g., vessel transfers, crane operations, drone inspections) by monitoring micro-weather and wave conditions.
 
-
+### 📊 Live Demo
+You can check the actual working dashboard or copy it to your Google Drive to see the GAS code in action.
+* 👁️ [**View Live Dashboard (Read-only)**](https://docs.google.com/spreadsheets/d/1BEvN0FNI-cV6G_C72O_4tgWIL5GeA0p6Ml2j-muf5EY/edit?usp=sharing)
+* 📋 [**Make a Copy to test GAS (Requires Google Account)**](https://docs.google.com/spreadsheets/d/1BEvN0FNI-cV6G_C72O_4tgWIL5GeA0p6Ml2j-muf5EY/copy)
 
 ### 🎯 Motivation (Bridging Civil Engineering & IT)
 In marine civil engineering and surveying, weather is not just a forecast—it is a physical constraint that dictates safety and efficiency. A wave height exceeding 1.5m prevents crew transfer vessels (CTVs) from approaching turbines, and wind speeds over 10m/s make drone flights or crane operations hazardous.
@@ -38,6 +41,11 @@ This project bridges the gap between **domain knowledge of physical operations**
 
 ### 🌊 概要
 Google Apps Script (GAS) とスプレッドシートを活用した、洋上風力発電現場のための「実務向けマイクロ気象ダッシュボード」です。作業船の移乗やドローン点検、クレーン作業などにおける「決行（Go） / 中止（No-Go）」の判断を、局地的な風速と波高データから自動判定します。
+
+### 📊 動作サンプル (Live Demo)
+実際のダッシュボードの稼働状況を確認できます。ご自身のGoogleドライブにコピーすれば、裏側のGASコードも確認・実行可能です。
+* 👁️ [**稼働中のダッシュボードを見る（閲覧のみ）**](https://docs.google.com/spreadsheets/d/1BEvN0FNI-cV6G_C72O_4tgWIL5GeA0p6Ml2j-muf5EY/edit?usp=sharing)
+* 📋 [**自分のドライブにコピーしてGASを試す（要Googleアカウント）**](https://docs.google.com/spreadsheets/d/1BEvN0FNI-cV6G_C72O_4tgWIL5GeA0p6Ml2j-muf5EY/copy)
 
 ### 🎯 開発背景（土木・測量ドメインとITの融合）
 測量や海洋土木の現場において、天候は単なる「予報」ではなく、作業員の命と精密機器を守るための「絶対的な物理制約」です。波高が1.5mを超えれば作業船は風車基礎に接岸できず、風速が10m/sを超えればクレーンやドローンは墜落のリスクを抱えます。
